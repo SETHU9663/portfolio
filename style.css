@@ -50,7 +50,7 @@ header {
 /* Hero */
 .hero {
     height: 90vh;
-    background: linear-gradient(to right, #00adb5, #393e46);
+    background: linear-gradient(to right, #ccff00, #393e46);
     color: white;
     display: flex;
     flex-direction: column;
