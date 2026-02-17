@@ -114,7 +114,7 @@ header {
 /* Footer */
 footer {
     background-color: #111;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
 }
