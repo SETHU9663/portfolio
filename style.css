@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #f4f7ff;
+    background-color: #f5f3ff;   /* Light Purple Background */
     color: #222;
 }
 
 /* Navbar */
 header {
-    background-color: #0f172a;   /* Dark Navy */
+    background-color: #3b0764;   /* Dark Purple */
     padding: 15px 40px;
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-    color: #38bdf8;   /* Light Blue */
+    color: #c084fc;   /* Light Purple */
     font-size: 24px;
     font-weight: bold;
 }
@@ -46,13 +46,13 @@ header {
 }
 
 .nav-links a:hover {
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 /* Hero */
 .hero {
     height: 90vh;
-    background: linear-gradient(to right, #2563eb, #0ea5e9);
+    background: linear-gradient(to right, #6d28d9, #a855f7);
     color: white;
     display: flex;
     flex-direction: column;
@@ -93,14 +93,9 @@ header {
 }
 
 .gray {
-    background-color: #e0f2fe;   /* Light sky blue */
+    background-color: #ede9fe;   /* Soft Purple Section */
 }
 
 .section h2 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #0f172a;
-}
-
-/* Cards */
-.cards {
