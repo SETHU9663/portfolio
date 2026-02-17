@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #f4f7ff;
+    color: #222;
 }
 
 /* Navbar */
 header {
-    background-color: #111;
+    background-color: #0f172a;   /* Dark Navy */
     padding: 15px 40px;
     position: sticky;
     top: 0;
@@ -25,8 +25,9 @@ header {
 }
 
 .logo {
-    color: #00adb5;
+    color: #38bdf8;   /* Light Blue */
     font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-links {
@@ -40,17 +41,18 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
+    transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #00adb5;
+    color: #38bdf8;
 }
 
 /* Hero */
 .hero {
     height: 90vh;
-    background: linear-gradient(to right, #ccff00, #393e46);
+    background: linear-gradient(to right, #2563eb, #0ea5e9);
     color: white;
     display: flex;
     flex-direction: column;
@@ -63,7 +65,7 @@ header {
 }
 
 .hero span {
-    color: #ffdd59;
+    color: #facc15;   /* Yellow highlight */
 }
 
 .hero p {
@@ -72,11 +74,16 @@ header {
 }
 
 .btn {
-    background-color: #ffdd59;
+    background-color: #facc15;
     color: black;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #fde047;
 }
 
 /* Sections */
@@ -86,51 +93,14 @@ header {
 }
 
 .gray {
-    background-color: #eaeaea;
+    background-color: #e0f2fe;   /* Light sky blue */
 }
 
 .section h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #0f172a;
 }
 
 /* Cards */
 .cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
-    width: 220px;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    font-weight: bold;
-}
-
-/* Footer */
-footer {
-    background-color: #111;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 15px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-}
