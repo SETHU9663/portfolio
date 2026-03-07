@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Sethu | Software Developer</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -31,8 +34,7 @@
 
 </header>
 
-
-<!-- HERO SECTION -->
+<!-- HERO -->
 
 <section id="home" class="hero">
 
@@ -44,18 +46,25 @@
 
 <p>
 Electronics and Communication Engineering student passionate about
-software development, programming, and building modern web applications.
+software development, programming and building modern applications.
 </p>
 
 <div class="hero-buttons">
 <a href="#" class="btn">Download Resume</a>
-<a href="#contact" class="btn-outline">Contact Me</a>
+<a href="#contact" class="btn-outline">Hire Me</a>
+</div>
+
+<div class="social">
+
+<a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+<a href="#">Email</a>
+
 </div>
 
 </div>
 
 </section>
-
 
 <!-- ABOUT -->
 
@@ -63,17 +72,29 @@ software development, programming, and building modern web applications.
 
 <h2>About Me</h2>
 
-<p class="about-text">
+<div class="about-container">
 
-I am an Electronics and Communication Engineering student who enjoys
-learning new technologies and solving real-world problems using programming.
-I am currently focusing on web development, programming, and software
-engineering to build a strong career in the IT industry.
+<div class="about-img">
+<img src="profile.jpg" alt="Sethu">
+</div>
+
+<div class="about-text">
+
+<p>
+
+I am an Electronics and Communication Engineering student passionate about
+software development and technology. I enjoy building web applications,
+learning programming languages and solving real-world problems.
+
+My goal is to become a professional software developer and work in a top IT company.
 
 </p>
 
-</section>
+</div>
 
+</div>
+
+</section>
 
 <!-- SKILLS -->
 
@@ -81,24 +102,31 @@ engineering to build a strong career in the IT industry.
 
 <h2>Technical Skills</h2>
 
-<div class="cards">
+<div class="skills">
 
-<div class="card">HTML & CSS</div>
+<div class="skill">
+<p>HTML & CSS</p>
+<div class="progress"><span style="width:90%"></span></div>
+</div>
 
-<div class="card">Java Programming</div>
+<div class="skill">
+<p>Java</p>
+<div class="progress"><span style="width:75%"></span></div>
+</div>
 
-<div class="card">Python</div>
+<div class="skill">
+<p>Python</p>
+<div class="progress"><span style="width:70%"></span></div>
+</div>
 
-<div class="card">DBMS & SQL</div>
-
-<div class="card">Git & GitHub</div>
-
-<div class="card">Problem Solving</div>
+<div class="skill">
+<p>SQL</p>
+<div class="progress"><span style="width:65%"></span></div>
+</div>
 
 </div>
 
 </section>
-
 
 <!-- PROJECTS -->
 
@@ -106,34 +134,34 @@ engineering to build a strong career in the IT industry.
 
 <h2>Projects</h2>
 
-<div class="cards">
+<div class="project-container">
 
-<div class="card project">
+<div class="project-card">
 
 <h3>Student Result System</h3>
 
 <p>
-Application to manage and calculate student marks and results.
+System to manage and calculate student results using programming logic.
 </p>
 
 </div>
 
-<div class="card project">
+<div class="project-card">
 
 <h3>Portfolio Website</h3>
 
 <p>
-Personal portfolio website developed using HTML and CSS.
+Modern responsive portfolio website using HTML and CSS.
 </p>
 
 </div>
 
-<div class="card project">
+<div class="project-card">
 
 <h3>Ultrasonic Distance System</h3>
 
 <p>
-Embedded system to measure distance using ultrasonic sensor.
+Embedded system using ultrasonic sensor to measure distance.
 </p>
 
 </div>
@@ -141,7 +169,6 @@ Embedded system to measure distance using ultrasonic sensor.
 </div>
 
 </section>
-
 
 <!-- CONTACT -->
 
@@ -149,24 +176,26 @@ Embedded system to measure distance using ultrasonic sensor.
 
 <h2>Contact Me</h2>
 
-<div class="contact-box">
+<form class="contact-form">
 
-<p>Email: sethupathiraja2006@gmail.com</p>
+<input type="text" placeholder="Your Name" required>
 
-<p>Phone: 7358929663</p>
+<input type="email" placeholder="Email">
 
-<p>Location: Tamil Nadu, India</p>
+<textarea placeholder="Message"></textarea>
 
-</div>
+<button type="submit" class="btn">Send Message</button>
+
+</form>
 
 </section>
 
-
 <footer>
 
-<p>© 2026 Sethu | Portfolio</p>
+<p>© 2026 Sethu | Software Developer</p>
 
 </footer>
 
 </body>
+
 </html>
